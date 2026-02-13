@@ -1,0 +1,196 @@
+@import url(style.css);
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    height: 100vh;
+    color: var(--white);
+}
+
+.hero-tagline {
+    font-family: var(--gen-font);
+    font-size: var(--title-2);
+    color: var(--white);
+    margin-top: 150px;
+}
+
+.hero-title {
+    font-family: var(--title-h-font);
+    font-size: var(--title-hero);
+    font-weight: bolder;
+    line-height: 5.5rem;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.intro {
+    padding: 7em 0;
+    text-align: center;
+}
+
+.intro-text {
+    display: inline-block;
+    font-family: var(--title-1-font);
+    font-size: var(--title-2);
+    line-height: 45px;
+    font-weight: 400;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 5em;
+    text-align: center;
+    background-color: var(--grey);
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    cursor: default;
+}
+
+.services-title {
+    font-family: var(--title-h-font);
+    font-size: var(--title-1);
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15.5em;
+    flex-wrap: wrap;
+}
+.service-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.service-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.service-info {
+    text-align: center;
+}
+
+.service-info h3 {
+    font-family: var(--title-1-font);
+    font-size: var(--title-3);
+    margin-bottom: 10px;
+}
+
+.service-info p {
+    font-family: var(--btn-font);
+    font-size: var(--link);
+    line-height: 25px;
+}
+
+.quote {
+    padding: 10em 2em;
+    text-align: center;
+    background:  linear-gradient(
+                    to right, 
+                    rgba(0, 0, 0, 0.6), 
+                    rgba(0, 0, 0, 0.6)
+                ), 
+                url("../imgs/wwwwwwwwwww.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.quote-title {
+    font-family: var(--title-1-font);
+    font-size: var(--title-2);
+    color: var(--white);
+    margin: auto;
+    line-height: 50px;
+}
+
+.quote-text {
+    font-family: var(--title-1-font);
+    font-size: 24px;
+    color: var(--white);
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    font-family: var(--gen-font);
+    font-size: var(--link);
+    line-height: 30px;
+}
+
+ol span {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+.why-choose-me {
+    padding: 7em 7em 5em 7em;
+}
+
+
+.newsletter {
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: url("../imgs/BKM - bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    text-align: center;
+    background-color: var(--primary);
+    border: 2px solid var(--white);
+    width: 80%;
+    padding: 20px;
+}
+
+.newsletter h2 {
+    font-family: var(--gen-font);
+    font-size: var(--title-4);
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    font-size: var(--paragraph);
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;margin-bottom: 20px;
+}
+
+.news-btn {
+    border: 2px solid var(--white);
+    width: 100%;
+    font-family: var(--title-1-font);
+}

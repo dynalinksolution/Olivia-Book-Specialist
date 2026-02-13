@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+:root {
+    --primary: rgb(8, 2, 34);
+    --secondary: rgb(215, 231, 231);
+    --black: black;
+    --white: white;
+    --grey: rgb(241, 241, 241);
+    --gen-font: 'lato';
+    --title-h-font: "Bebas Neue", sans-serif;
+    --title-1-font: "Oswald";
+    --btn-font: 'Quicksand';
+    --paragraph: 16px;
+    --title-hero: 80px;
+    --title-1: 50px;
+    --title-2: 30px;
+    --title-3: 20px;
+    --title-4: 24px;
+    --title-5: 40px;
+    --link: 18px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--primary);
+}
+ 
+.container {
+    /* width: 100vw; */
+    position: relative;
+}
+
+.link {
+    font-family: var(--gen-font);
+    font-size: var(--link);
+    color: var(--primary);
+    font-style: italic;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+nav {
+    /* width: 100vw; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 25px 0;
+    margin: 0 60px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--white);
+    z-index: 10;
+}
+
+nav img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-list ul a {
+    text-decoration: none;
+    font-family: var(--gen-font);
+    font-size: var(--paragraph);
+    cursor: pointer;
+}
+
+nav li {
+    color: var(--secondary);
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.hero {
+    background: url("../imgs/BKM - bg.png");
+    background-position: center;
+    background-size: cover;
+    /* background: red; */
+    height: 100vh;
+}
+
+.submit-btn {
+    padding: 15px 50px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 3px solid var(--white);
+    font-family: var(--btn-font);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: var(--primary);
+    padding: 30px 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .copyright p {
+    color: var(--secondary);
+    font-family: var(--gen-font);
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer .social-icon img {
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: var(--secondary);
+}
+
+.divider-b {
+    width: 100%;
+    height: 15px;
+    background: var(--primary);
+}
+
+.divider-w {
+    width: 100%;
+    height: 100px;
+    background: var(--white);
+}
+
+.booking {
+    text-align: center;
+    padding: 5em 0;
+    background: var(--grey);
+}
+
+.booking-text {
+    font-family: var(--title-1-font);
+    font-size: var(--title-4);
+    margin-bottom: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+
+.active {
+    font-weight: bold;
+    border-bottom: 3px solid var(--secondary);
+}
+
+

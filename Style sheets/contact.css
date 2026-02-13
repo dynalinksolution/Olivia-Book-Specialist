@@ -1,0 +1,72 @@
+@import url(style.css);
+@import url(service.css);
+@import url(home.css);
+
+section {
+    padding: 3em 0 8em 0;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    background-color: var(--grey);
+    border: 2px solid var(--white);
+    width: 60%;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    font-size: var(--paragraph);
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    height: 250px;
+    font-size: var(--paragraph);
+    padding: 20px 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+}
+
+.contact-info {
+    margin-bottom: 12em;
+    padding: 0 5em;
+}
+
+.contact-info h2 {
+    font-family: var(--title-1-font);
+    font-size: var(--title-2);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: var(--gen-font);
+    font-size: var(--link);
+    margin-bottom: 10px;
+}
+
+.contact-info span {
+    font-weight: bold;
+}
