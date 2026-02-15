@@ -180,14 +180,14 @@ footer .social-icon img {
         align-self: center;
     }
     nav ul {
-        position: absolute;
+        position: fixed;
         top: 0;
-        right: -3.7em;
+        right: 0;
         padding: 1em;
         flex-direction: column;
         background-color: var(--primary);
         width: 19em;
-        transition: .25s;
+        transition: .5s;
         /* display: none; */
     }
     nav li {
@@ -219,4 +219,15 @@ footer .social-icon img {
         background-color: white;
         margin: 5px 0;
     }
+    #close-bar {
+    display: block;
+    position: absolute;
+    top: 2.3em;
+    right: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-family: var(--gen-font);
+}
 }
