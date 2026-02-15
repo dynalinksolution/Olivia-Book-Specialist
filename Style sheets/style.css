@@ -163,3 +163,52 @@ footer .social-icon img {
 }
 
 
+/* Mobile View */
+@media (max-width: 56em) {
+    nav {
+        justify-content: space-between;
+    }
+    nav img {
+        align-self: center;
+    }
+    nav ul {
+        position: absolute;
+        top: 0;
+        right: -3.7em;
+        padding: 1em;
+        flex-direction: column;
+        background-color: var(--primary);
+        width: 19em;
+        transition: .25s;
+        /* display: none; */
+    }
+    nav li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 30px;
+    }
+    span {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white;
+        float: right;
+        cursor: pointer;
+    }
+    .un-active-bar {
+        transform: translateX(20em);
+    }
+    .sidebar-dashes {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        cursor: pointer;
+    }
+    .dash {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+}
