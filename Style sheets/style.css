@@ -154,7 +154,12 @@ footer .social-icon img {
     font-weight: 400;
     letter-spacing: 2px;
 }
-
+.sidebar-dashes {
+    display: none;
+}
+#close-bar {
+    display: none;
+}
 
 
 .active {
@@ -165,6 +170,9 @@ footer .social-icon img {
 
 /* Mobile View */
 @media (max-width: 56em) {
+    .container {
+        overflow-x: hidden;
+    }
     nav {
         justify-content: space-between;
     }
