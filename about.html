@@ -9,29 +9,40 @@
     <link rel="stylesheet" href="Style sheets/about.css">
     <title>Olivia Book Strategist | About</title>
 </head>
-<div class="container">
+<body>
+    <div class="container">
 
     <nav class="sec-nav">
         <div class="nav-logo">
-            <a href="index.html"><img src="imgs/OBS - logo.png" alt="Olivia Book Strategist Logo" loading="lazy"></a>
+          <a href="index.html"
+            ><img
+              src="imgs/OBS - logo.png"
+              alt="Olivia Book Strategist Logo"
+              loading="lazy"
+          /></a>
         </div>
         <div class="nav-list">
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="service.html">
-                    <li>Service</li>
-                </a>
-                <a href="about.html" class="active">
-                    <li>About</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
+          <ul id="sydBar" class="un-active-bar">
+            <a href="index.html">
+              <li>Home</li> </a
+            ><span id="close-bar">X</span>
+            <a href="service.html">
+              <li>Service</li>
+            </a>
+            <a href="about.html" class="active">
+              <li>About</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
         </div>
-    </nav>
+        <div class="sidebar-dashes" id="sidebar-dashes">
+          <span class="dash"></span>
+          <span class="dash"></span>
+          <span class="dash"></span>
+        </div>
+      </nav>
     <section>
         <img src="imgs/olivia.png" alt="Photo of Olivia in a Suit with a studio background" class="profile-img" loading="lazy">
         <h4 class="about-title">Hi, I’m Olivia, a Book Marketer & Book Strategist.</h4>
@@ -98,6 +109,7 @@
         </div>
     </footer>
 </div>
+</body>
 
-
+<script src="script.js"></script>
 </html>
