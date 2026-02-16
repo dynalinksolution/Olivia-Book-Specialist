@@ -194,3 +194,45 @@ form input {
     width: 100%;
     font-family: var(--title-1-font);
 }
+
+
+@media (max-width: 35em) {
+    .hero-title {
+        line-height: 1.5em;
+        font-size: 34px;
+    } 
+    .hero-tagline {
+        font-size: 22px;
+        text-align: center;
+    }
+    nav {
+        margin: 0 1em 0 1em;
+    }
+    .intro {
+        padding: 1em;
+        font-size: 18px;
+    }
+    .services-title {
+        font-size: 32px;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        justify-content: center;
+    }
+    .service-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-choose-me {
+        padding: 2.5em;
+    }
+    .why-choose-me .span {
+        /* display: none; */
+        color: var(--primary);
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
