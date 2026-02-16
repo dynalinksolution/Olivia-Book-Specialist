@@ -9,29 +9,40 @@
     <link rel="stylesheet" href="Style sheets/about.css">
     <title>Olivia Book Strategist | About</title>
 </head>
-<div class="container">
+<body>
+    <div class="container">
 
     <nav class="sec-nav">
         <div class="nav-logo">
-            <a href="index.html"><img src="imgs/OBS - logo.png" alt="Olivia Book Strategist Logo" loading="lazy"></a>
+          <a href="index.html"
+            ><img
+              src="imgs/OBS - logo.png"
+              alt="Olivia Book Strategist Logo"
+              loading="lazy"
+          /></a>
         </div>
         <div class="nav-list">
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="service.html">
-                    <li>Service</li>
-                </a>
-                <a href="about.html" class="active">
-                    <li>About</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
+          <ul id="sydBar" class="un-active-bar">
+            <a href="index.html">
+              <li>Home</li> </a
+            ><span id="close-bar">X</span>
+            <a href="service.html">
+              <li>Service</li>
+            </a>
+            <a href="about.html" class="active">
+              <li>About</li>
+            </a>
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
         </div>
-    </nav>
+        <div class="sidebar-dashes" id="sidebar-dashes">
+          <span class="dash"></span>
+          <span class="dash"></span>
+          <span class="dash"></span>
+        </div>
+      </nav>
     <section>
         <img src="imgs/olivia.png" alt="Photo of Olivia in a Suit with a studio background" class="profile-img" loading="lazy">
         <h4 class="about-title">Hi, I’m Olivia, a Book Marketer & Book Strategist.</h4>
@@ -45,29 +56,33 @@
             feels authentic and effective. As a growing book marketer and strategist, I focus on research-driven
             approaches, continuous learning, and staying up to date with book marketing trends. Every project I take on
             is handled with care, professionalism, and a commitment to delivering value.</p>
-        <p class="about-info mission"><span>MY MISSION:</span> <br>To help authors confidently promote their books,
+            
+        <p class="about-info mission"><strong>MY MISSION:</strong><br>To help authors confidently promote their books,
             build credibility, and grow long-term visibility in the publishing world through ethical and strategic
             marketing.</p>
-        <p class="about-info mission"><span>MY VALUES:</span> <br>To be a trusted partner for authors seeking
+            
+        <p class="about-info mission">
+            <strong>MY VALUES:</strong>
+            <br>To be a trusted partner for authors seeking
             personalized book marketing solutions that align with their unique goals and values.</p>
         <ol>
-            <li><span>Integrity:</span> I believe in honest and ethical book promotion. I never use misleading tactics,
+            <li><p class="span">Integrity:</p> I believe in honest and ethical book promotion. I never use misleading tactics,
                 spam outreach, or shortcuts that could harm your reputation as an author. Every strategy I apply is
                 transparent, respectful, and focused on long-term credibility rather than quick wins.</li>
-            <li><span>Personalization:</span> Every author and every book is unique. That’s why I take time to
+            <li><p class="span">Personalization:</p> Every author and every book is unique. That’s why I take time to
                 understand your goals, genre, and audience before recommending or implementing any marketing strategy.
                 My services are tailored to fit your specific needs, not a one-size-fits-all approach.</li>
-            <li><span>Professionalism:</span> Clear communication and dependable support are central to how I work. I
+            <li><p class="span">Professionalism:</p> Clear communication and dependable support are central to how I work. I
                 value timely responses, organized processes, and respectful collaboration, so you always feel informed,
                 confident, and supported throughout our work together.</li>
-            <li><span>Creativity:</span>Your book deserves thoughtful and creative marketing that reflects its message
+            <li><p class="span">Creativity:</p>Your book deserves thoughtful and creative marketing that reflects its message
                 and voice. I approach each project with fresh ideas and careful planning, ensuring that promotion
                 enhances your story rather than overshadows it.</li>
-            <li><span>Growth:</span> The publishing and marketing world is constantly evolving. I am committed to
+            <li><p class="span">Growth:</p> The publishing and marketing world is constantly evolving. I am committed to
                 continuous learning, improving my skills, and staying updated with industry trends so I can offer
                 strategies that remain relevant and effective for authors.</li>
         </ol>
-        <p class="about-info work"><span>WHO I WORK WITH</span></p>
+        <p class="about-info work span">WHO I WORK WITH</p>
         <ul>
             <p style="padding: 0 0 2px 0;">I work with:</p>
             <li>Self-published and indie authors</li>
@@ -98,6 +113,7 @@
         </div>
     </footer>
 </div>
+</body>
 
-
+<script src="script.js"></script>
 </html>

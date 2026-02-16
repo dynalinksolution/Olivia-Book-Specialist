@@ -31,6 +31,9 @@ form input {
     outline: none;
     margin-bottom: 30px;
 }
+span {
+    color: var(--primary);
+}
 
 form textarea {
     display: block;
@@ -69,4 +72,21 @@ form button {
 
 .contact-info span {
     font-weight: bold;
+}
+
+@media (max-width: 35em) {
+    .sec-nav {
+    padding: 1em 2em;
+  }
+  form {
+    padding: 1em;
+    width: 100%;
+  }
+  section {
+    padding: 1em;
+  }
+
+  .contact-info {
+    padding: 2em;
+  }
 }
